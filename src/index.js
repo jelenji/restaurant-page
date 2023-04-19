@@ -1,1 +1,3 @@
-console.log("webpack linked up");
+import home from "./modules/home"
+
+home()
