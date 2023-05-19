@@ -9,16 +9,19 @@ function navBar() {
 
   element.classList.add("nav-btn");
   element.textContent = "Home";
+  element.setAttribute("id", "home-btn")
   nav.append(element);
 
   element = document.createElement("button");
   element.classList.add("nav-btn");
   element.textContent = "Menu";
+  element.setAttribute("id", "menu-btn")
   nav.append(element);
 
   element = document.createElement("button");
   element.classList.add("nav-btn");
-  element.textContent = "Contact";
+  element.textContent = "About";
+  element.setAttribute("id", "about-btn")
   nav.append(element);
 
   content.append(nav);
